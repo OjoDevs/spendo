@@ -1,0 +1,23 @@
+node_modules
+src/pages/user-auth
+### react template
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+vite.config.js
+tailwind.config.js
+
+
+
+*.sublime*
+
+psd
+thumb
+sketch
+

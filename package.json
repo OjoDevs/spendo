@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@heroicons/react": "^2.1.5",
+    "framer-motion": "^11.5.6",
+    "lucide-react": "^0.446.0",
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
+    "recharts": "^2.12.7",
+    "vite": "^4.5.5"
+  },
+  "name": "spendo",
+  "version": "0.0.1",
+  "description": "spending tracker",
+  "main": "index.js",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.0.0",
+    "vite": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\" --quiet",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev": "vite dev",
+    "start": "serve -s build",
+    "s": "vite dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
